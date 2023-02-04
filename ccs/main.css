@@ -22,7 +22,7 @@ html, body {
   inset: 0;
   background-size: cover;
   will-change: transform;
-  transition: var(--transition)!important;
+  /* transition: var(--transition)!important; */
   background-position: center;
 }
 
@@ -40,6 +40,6 @@ html, body {
 
 .slider-wrapper {
   will-change: transform;
-  transition: var(--transition)!important;
+  /* transition: var(--transition)!important; */
   transform-style: preserve-3d;
 }
