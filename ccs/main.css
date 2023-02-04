@@ -17,8 +17,13 @@ html, body {
   position: absolute;
   inset: 0;
   background-size: cover;
+  will-change: transform;
 }
 
 .slider-item {
   overflow: hidden;
+}
+
+.slider-wrapper {
+  will-change: transform;
 }
