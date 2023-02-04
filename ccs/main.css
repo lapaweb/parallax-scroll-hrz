@@ -18,6 +18,7 @@ html, body {
   inset: 0;
   background-size: cover;
   will-change: transform;
+  background-position: center;
 }
 
 .slider-layer::before {
@@ -34,4 +35,5 @@ html, body {
 
 .slider-wrapper {
   will-change: transform;
+  transform-style: preserve-3d;
 }
