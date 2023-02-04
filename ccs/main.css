@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #000;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slider-layer {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+}
+
+.slider-item {
+  overflow: hidden;
+}

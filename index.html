@@ -4,10 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LapaWeb Параллакс</title>
+  <title>LapaWeb Параллакс горизонтальный</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+  <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+  <script src="libs/particles/particles.js" defer></script>
+
+  <link rel="stylesheet" href="ccs/main.css">
+  <script src="js/app.js" defer></script>
+
 </head>
 <body>
+
+  <div class="swiper slider">
+    <div class="swiper-wrapper slider-wrapper">
+
+      <div class="swiper-slide slider-item">
+        <div class="slider-layer" data-swiper-parallax="35%" style="background-image: url(img/screen-1/layer-back.jpg)"></div>
+        <div class="slider-layer" data-swiper-parallax="25%" style="background-image: url(img/screen-1/layer-middle.png)"></div>
+        <div class="slider-layer" data-swiper-parallax="14%" style="background-image: url(img/screen-1/layer-front.png)"></div>
+      </div>
+      <div class="swiper-slide slider-item">
+        <div class="slider-layer" data-swiper-parallax="40%" style="background-image: url(img/screen-2/layer-back.jpg)"></div>
+        <div class="slider-layer" data-swiper-parallax="34%" style="background-image: url(img/screen-2/layer-gera.png)"></div>
+        <div class="slider-layer" data-swiper-parallax="30%" style="background-image: url(img/screen-2/layer-yen.png)"></div>
+        <div class="slider-layer" data-swiper-parallax="14%" style="background-image: url(img/screen-2/layer-front.png)"></div>
+      </div>
+      <div class="swiper-slide slider-item">
+        <div class="slider-layer" data-swiper-parallax="48%" style="background-image: url(img/screen-3/layer-back.jpg)"></div>
+        <div class="slider-layer" data-swiper-parallax="35%" style="background-image: url(img/screen-3/layer-middle.png)"></div>
+        <div class="slider-layer" data-swiper-parallax="29%" style="background-image: url(img/screen-3/layer-ciri.png)"></div>
+        <div class="slider-layer" data-swiper-parallax="16%" style="background-image: url(img/screen-3/layer-front.png)"></div>
+      </div>
+
+    </div>
+  </div>
   
 </body>
 </html>
