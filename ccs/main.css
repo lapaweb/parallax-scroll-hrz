@@ -20,6 +20,14 @@ html, body {
   will-change: transform;
 }
 
+.slider-layer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  box-shadow: inset 0 0 250px rgb(0, 0, 0 / .3);
+}
+
 .slider-item {
   overflow: hidden;
 }
